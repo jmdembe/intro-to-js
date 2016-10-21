@@ -26,7 +26,7 @@
      // Replace the _____ above with the value of the `firstName` variable.
      // NOTE: Do NOT simply retype your first name in the `greeting` value.
 
-     var greeting = 'Hello there '+ firstName+ "!";
+     var greeting = 'Hello there '+ firstName+ '!';
 
      // TODO 3: Create two variables: one for the year you were born, and one
      // for the current year. Then create a third variable to store your age!
@@ -44,10 +44,10 @@
 
      if (age < 35)
         {
-          style = "hip";
+          style = 'hip';
         }
       else {
-          style = "classic";
+          style = 'classic';
         }
 
      // TODO 5: Create a variable indicating that your instructor is awesome
@@ -60,11 +60,11 @@
      var review;
 
      if (instructorIsAwesome) {
-       review = "good";
+       review = 'good';
      }
 
      else {
-       review = "bad";
+       review = 'bad';
      }
 
      // TODO 6: Create a function called `math` which accepts to numbers as
