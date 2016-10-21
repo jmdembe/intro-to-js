@@ -48,7 +48,7 @@
         }
       else {
           style = "classic";
-      }
+        }
 
      // TODO 5: Create a variable indicating that your instructor is awesome
      // and call it `instructorIsAwesome`. This variable should be a boolean
