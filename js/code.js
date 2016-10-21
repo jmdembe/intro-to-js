@@ -34,7 +34,7 @@
 
      var birthYear = 1990;
      var currentYear = 2016;
-     var age = 2016-1990;
+     var age = currentYear-birthYear;
 
      // TODO 4: Create a new variable called `style` - if your age is under 35,
      // store "hip" in this variable, but if your age is 35 or over, store
@@ -101,6 +101,7 @@
        var reverseString = stringSplit.reverse();
        var newString = reverseString.join("");
        return "(newString)";
+     }
 
 
 
